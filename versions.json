@@ -1,0 +1,134 @@
+{
+  "versions": [
+    {
+      "version": "20260629-version-manager-v14",
+      "title": "Version manager v14",
+      "date": "2026-06-29",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-version-manager-v14/20260629-version-manager-v14.zip",
+      "sha256": "fa307c63b13e0e7ea6b3931091468717948249d266bcf6cfe0480b6a49f628b2",
+      "sizeBytes": 141453220,
+      "hasVersionManager": true,
+      "notes": "Current build with version manager. Upload this zip as a private release asset."
+    },
+    {
+      "version": "20260629-wishlist-live-v13",
+      "title": "Wishlist live v13",
+      "date": "2026-06-29",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-wishlist-live-v13/20260629-wishlist-live-v13.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260628-url-round-robin-v11",
+      "title": "URL round-robin v11",
+      "date": "2026-06-28",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260628-url-round-robin-v11/20260628-url-round-robin-v11.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260628-open-links-v10",
+      "title": "Open links v10",
+      "date": "2026-06-28",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260628-open-links-v10/20260628-open-links-v10.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260627-wishlist-transfer-v9",
+      "title": "Wishlist transfer v9",
+      "date": "2026-06-27",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260627-wishlist-transfer-v9/20260627-wishlist-transfer-v9.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260626-sale-scoped-after-count-v8",
+      "title": "Sale scoped after count v8",
+      "date": "2026-06-26",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260626-sale-scoped-after-count-v8/20260626-sale-scoped-after-count-v8.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260626-sale-fullscan-v7",
+      "title": "Sale full scan v7",
+      "date": "2026-06-26",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260626-sale-fullscan-v7/20260626-sale-fullscan-v7.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260625-sale-variant-v6",
+      "title": "Sale variant v6",
+      "date": "2026-06-25",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260625-sale-variant-v6/20260625-sale-variant-v6.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260624-sale-grid-v5",
+      "title": "Sale grid v5",
+      "date": "2026-06-24",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260624-sale-grid-v5/20260624-sale-grid-v5.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260623-url-guard-v4",
+      "title": "URL guard v4",
+      "date": "2026-06-23",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-url-guard-v4/20260623-url-guard-v4.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260623-sale-capture-v3",
+      "title": "Sale capture v3",
+      "date": "2026-06-23",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-sale-capture-v3/20260623-sale-capture-v3.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260623-settings-draft-v2",
+      "title": "Settings draft v2",
+      "date": "2026-06-23",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-settings-draft-v2/20260623-settings-draft-v2.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    },
+    {
+      "version": "20260623-portable-v1",
+      "title": "Portable v1",
+      "date": "2026-06-23",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-portable-v1/20260623-portable-v1.zip",
+      "sha256": "",
+      "sizeBytes": 0,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
+    }
+  ]
+}
