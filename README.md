@@ -15,4 +15,10 @@ Recommended GitHub setup:
 4. Create a fine-grained GitHub token with read-only access to repository Contents.
 5. Put that token into FastWork settings under `Токен доступа к версиям`.
 
+The app's default manifest URL is:
+
+```text
+https://raw.githubusercontent.com/Uniq-Low/fast-work-updates/main/versions.json
+```
+
 Do not embed the token into the exe. Anyone with the exe can extract embedded secrets.
