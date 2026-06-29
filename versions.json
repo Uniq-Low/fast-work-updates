@@ -1,14 +1,24 @@
 {
   "versions": [
     {
+      "version": "20260629-versions-history-v15",
+      "title": "Versions history v15",
+      "date": "2026-06-29",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-versions-history-v15/20260629-versions-history-v15.zip",
+      "sha256": "d32e8e6bf9d8ce6cd3db5ef442279fe33e4449dfe4dff188a2ae4f1aa0f1b8b8",
+      "sizeBytes": 141453245,
+      "hasVersionManager": true,
+      "notes": "Current build with previous versions, private manifest token support, and one-way rollback protection."
+    },
+    {
       "version": "20260629-version-manager-v14",
       "title": "Version manager v14",
       "date": "2026-06-29",
       "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-version-manager-v14/20260629-version-manager-v14.zip",
-      "sha256": "fa307c63b13e0e7ea6b3931091468717948249d266bcf6cfe0480b6a49f628b2",
-      "sizeBytes": 141453220,
-      "hasVersionManager": true,
-      "notes": "Current build with version manager. Upload this zip as a private release asset."
+      "sha256": "c1e97a9be405fa4719db37eaf411f8b73b4a39e96774eea6676778de64ac59a7",
+      "sizeBytes": 141443995,
+      "hasVersionManager": false,
+      "notes": "Old build. New manager remains open when this version is launched."
     },
     {
       "version": "20260629-wishlist-live-v13",
