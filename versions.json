@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "version": "20260701-test-v17",
+      "title": "Test v17",
+      "date": "2026-07-01",
+      "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260701-test-v17/20260701-test-v17.zip",
+      "sha256": "d2af3601387ff7342e72dabae353c385418d98e4c83030bcc53f54dbf4cda7ad",
+      "sizeBytes": 141464268,
+      "hasVersionManager": true,
+      "notes": "Test build: shows the program version under the tab menu."
+    },
+    {
       "version": "20260701-startup-update-check-v16",
       "title": "Startup update check v16",
       "date": "2026-07-01",
@@ -8,7 +18,7 @@
       "sha256": "4376af628231cdfcbb2cd57d11579e3d49bfe77d664e67ba93771774f3e0f368",
       "sizeBytes": 141464104,
       "hasVersionManager": true,
-      "notes": "Checks for a newer version on startup, shows a centered update dialog, and downloads after pressing Update."
+      "notes": "Previous build with centered startup update dialog and one-click update download."
     },
     {
       "version": "20260629-versions-history-v15",
