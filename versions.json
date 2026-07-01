@@ -5,8 +5,8 @@
                          "title":  "Wishlist API strict v18",
                          "date":  "2026-07-01",
                          "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260701-wishlist-api-strict-v18/20260701-wishlist-api-strict-v18.zip",
-                         "sha256":  "2158b1d44a1b3f2b83eae875b2331254bc122be05ec6a7b2f9f39dbd669097b4",
-                         "sizeBytes":  141473378,
+                         "sha256":  "d12b63a2745bf0a4ab5a6b8cba1e4d64e1ad46d9f49752e9923c67a8abb9285a",
+                         "sizeBytes":  141474185,
                          "hasVersionManager":  true,
                          "notes":  "Fixes wishlist API strict variant filtering so same-name different-price variants are not reported; API waves now continue past the first page when total is missing."
                      },
