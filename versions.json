@@ -1,6 +1,16 @@
 {
     "versions":  [
                      {
+                         "version":  "20260702-wishlist-dom-strict-v21",
+                         "title":  "Wishlist DOM strict v21",
+                         "date":  "2026-07-02",
+                         "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-wishlist-dom-strict-v21/20260702-wishlist-dom-strict-v21.zip",
+                         "sha256":  "a47c9d833feac39cbf0c2b0484c3197c083a6c169cbbe7418fad3c54c84ea573",
+                         "sizeBytes":  141493582,
+                         "hasVersionManager":  true,
+                         "notes":  "Fixes wishlist browser-mode false positives: visible DOM Add to cart cards are now filtered by the exact wishlist product/color/size from the API, so a saved color no longer opens a neighboring /00 variant. Finds can be emitted during scrolling from the early API read instead of waiting for the bottom. Keeps the V20 version-manager fallback."
+                     },
+                     {
                          "version":  "20260702-version-manager-fallback-v20",
                          "title":  "Version manager fallback v20",
                          "date":  "2026-07-02",
