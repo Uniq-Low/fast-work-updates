@@ -5,8 +5,8 @@
                          "title":  "Wishlist live URL v19",
                          "date":  "2026-07-02",
                          "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-wishlist-live-url-v19/20260702-wishlist-live-url-v19.zip",
-                         "sha256":  "c89d7bc654aed0305c3df3000aa85f78a651f581d8f337de3c5a5caf1d22effe",
-                         "sizeBytes":  141484896,
+                         "sha256":  "a15923762ed0e4603b38a9239ada1216153a5a56cdcd599d68aab668f32b9d19",
+                         "sizeBytes":  141486504,
                          "hasVersionManager":  true,
                          "notes":  "Wishlist fix: exact saved product URL is preserved, so /01 links no longer turn into /00 variants. Browser wishlist scan now shows found items while scrolling instead of waiting for the very bottom. Added a first-launch update card with a short animated presentation and human-readable changes."
                      },
