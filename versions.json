@@ -1,6 +1,16 @@
 {
     "versions":  [
                      {
+                         "version":  "20260702-version-manager-fallback-v20",
+                         "title":  "Version manager fallback v20",
+                         "date":  "2026-07-02",
+                         "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-version-manager-fallback-v20/20260702-version-manager-fallback-v20.zip",
+                         "sha256":  "ac01280edebac759632a94d113d73af03b725c8f588e09c13acd8070ea995088",
+                         "sizeBytes":  141492637,
+                         "hasVersionManager":  true,
+                         "notes":  "Fixes the version manager: old versions are visible again from the local FastWorkSingle runtime cache, GitHub API has raw-manifest fallback, and settings now show a useful load status instead of silently leaving only the current version."
+                     },
+                     {
                          "version":  "20260702-wishlist-live-url-v19",
                          "title":  "Wishlist live URL v19",
                          "date":  "2026-07-02",
