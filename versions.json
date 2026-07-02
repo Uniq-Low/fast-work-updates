@@ -1,6 +1,16 @@
 {
     "versions":  [
                      {
+                         "version":  "20260702-wishlist-live-chunks-v22",
+                         "title":  "Wishlist live chunks v22",
+                         "date":  "2026-07-02",
+                         "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-wishlist-live-chunks-v22/20260702-wishlist-live-chunks-v22.zip",
+                         "sha256":  "42593792e42aed3e3a944ff9f150f96ec45dcbb67afc118f12b5f5b3da6d8368",
+                         "sizeBytes":  141494340,
+                         "hasVersionManager":  true,
+                         "notes":  "Fixes the real reason wishlist browser results were emitted in a batch at the bottom: the scroll JavaScript had a hidden 15-second minimum chunk. Browser scroll now yields back to Python in short live chunks, checks the first screen immediately, and keeps the strict product/color/size filtering from V21."
+                     },
+                     {
                          "version":  "20260702-wishlist-dom-strict-v21",
                          "title":  "Wishlist DOM strict v21",
                          "date":  "2026-07-02",
