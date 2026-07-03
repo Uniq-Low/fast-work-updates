@@ -1,6 +1,16 @@
 {
     "versions":  [
                      {
+                         "version":  "20260703-wishlist-progress-stable-v25",
+                         "title":  "Wishlist progress stable v25",
+                         "date":  "2026-07-03",
+                         "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-progress-stable-v25/20260703-wishlist-progress-stable-v25.zip",
+                         "sha256":  "d85b57273f158e57ed969982fa44e2bff9e892177166deadd4febb30d02e24e4",
+                         "sizeBytes":  141498693,
+                         "hasVersionManager":  true,
+                         "notes":  "Wishlist progress is now based on loaded cards versus the page total, worker rows update without flicker, short pause no longer resets progress, and 100% is shown only after the target count is reached."
+                     },
+                     {
                          "version":  "20260703-wishlist-live-card-count-v24",
                          "title":  "Wishlist live card count v24",
                          "date":  "2026-07-03",
