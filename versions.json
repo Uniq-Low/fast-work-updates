@@ -1,6 +1,16 @@
 {
     "versions":  [
                      {
+                         "version":  "20260703-whats-new-v29",
+                         "title":  "What\u0027s new v29",
+                         "date":  "2026-07-03",
+                         "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-whats-new-v29/20260703-whats-new-v29.zip",
+                         "sha256":  "6d67a1fc81958e12aa5c222540f6d636627afed2c877ac6e911b81c84765cbec",
+                         "size":  141500235,
+                         "hasVersionManager":  true,
+                         "notes":  "The in-app What\u0027s New screen now describes the current wishlist lazy-load behavior: recovery scrolls up only after a real stall, while normal forward scrolling is treated as progress."
+                     },
+                     {
                          "version":  "20260703-wishlist-forward-progress-v28",
                          "title":  "Wishlist forward progress v28",
                          "date":  "2026-07-03",
