@@ -1,6 +1,16 @@
 {
     "versions":  [
                      {
+                         "version":  "20260703-wishlist-live-card-count-v24",
+                         "title":  "Wishlist live card count v24",
+                         "date":  "2026-07-03",
+                         "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-live-card-count-v24/20260703-wishlist-live-card-count-v24.zip",
+                         "sha256":  "24441a796e268b47d953f3cf382eb1b6f2fa673e2d06d3e2b0258097357d3731",
+                         "sizeBytes":  141495882,
+                         "hasVersionManager":  true,
+                         "notes":  "Wishlist live-scroll now reports loaded DOM cards separately from API total, adds a per-worker scroll progress bar, and no longer shows a 999 wishlist target as already scanned before the page reaches the bottom."
+                     },
+                     {
                          "version":  "20260703-wishlist-live-scroll-v23",
                          "title":  "Wishlist live scroll v23",
                          "date":  "2026-07-03",
