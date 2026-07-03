@@ -1,6 +1,16 @@
 {
     "versions":  [
                      {
+                         "version":  "20260703-wishlist-forward-progress-v28",
+                         "title":  "Wishlist forward progress v28",
+                         "date":  "2026-07-03",
+                         "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-forward-progress-v28/20260703-wishlist-forward-progress-v28.zip",
+                         "sha256":  "8a8d2d8c9667755a140c3c90300f65bb65ed829925bf98f2821ba96226f82a88",
+                         "size":  141501285,
+                         "hasVersionManager":  true,
+                         "notes":  "Wishlist up-scroll recovery now runs only when loading is truly stuck: no new cards/height and no forward scroll progress. Normal downward scrolling no longer triggers recovery just because visible card count is stable."
+                     },
+                     {
                          "version":  "20260703-wishlist-stuck-recovery-v27",
                          "title":  "Wishlist stuck recovery v27",
                          "date":  "2026-07-03",
