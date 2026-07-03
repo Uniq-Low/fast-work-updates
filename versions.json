@@ -1,6 +1,16 @@
 {
     "versions":  [
                      {
+                         "version":  "20260703-wishlist-stuck-recovery-v27",
+                         "title":  "Wishlist stuck recovery v27",
+                         "date":  "2026-07-03",
+                         "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-stuck-recovery-v27/20260703-wishlist-stuck-recovery-v27.zip",
+                         "sha256":  "2ed1dff0f1a63f1a6f0f791ad0765973f6554c417f59e08bf5a07588490ce546",
+                         "size":  141501559,
+                         "hasVersionManager":  true,
+                         "notes":  "Wishlist scrolling no longer reloads at partial counts like 233/999. Up-scroll recovery now runs only after loading stalls, uses a stronger upward nudge, extends timeout for large wishlists, forces wishlist to one worker, and save-wishlist reports login state clearly."
+                     },
+                     {
                          "version":  "20260703-wishlist-progress-stable-v25",
                          "title":  "Wishlist progress stable v25",
                          "date":  "2026-07-03",
