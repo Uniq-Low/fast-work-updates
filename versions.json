@@ -1,6 +1,16 @@
 {
     "versions":  [
                      {
+                         "version":  "20260703-wishlist-live-scroll-v23",
+                         "title":  "Wishlist live scroll v23",
+                         "date":  "2026-07-03",
+                         "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-live-scroll-v23/20260703-wishlist-live-scroll-v23.zip",
+                         "sha256":  "1394ba821e3a65cdd11bc63e883db4bee3822370f02c251f9bf23b3eb1b48b67",
+                         "sizeBytes":  141494292,
+                         "hasVersionManager":  true,
+                         "notes":  "Wishlist now uses browser live-scroll by default instead of API-only waves. It reacts to in-stock wishlist cards as soon as they load during scrolling, keeps scrolling after a hit, and no longer emits API-only products as a batch at the end."
+                     },
+                     {
                          "version":  "20260702-wishlist-live-chunks-v22",
                          "title":  "Wishlist live chunks v22",
                          "date":  "2026-07-02",
