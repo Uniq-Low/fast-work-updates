@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260704-api-mode-toggle-v37",
+    "title": "API mode toggle v37",
+    "date": "2026-07-04",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260704-api-mode-toggle-v37/20260704-api-mode-toggle-v37.zip",
+    "sha256": "58befd918907a43f1b5396cc0cab95e12c02ac4eeefa208ef3131cf16f8df289",
+    "sizeBytes": 182950138,
+    "hasVersionManager": true,
+    "notes": "API mode checkbox now activates correctly by disabling incompatible Chrome, Sale, and Amazon options instead of being reset. API remains limited to one worker."
+  },
+  {
     "version": "20260704-api-mode-jump-scroll-v36",
     "title": "API mode jump scroll v36",
     "date": "2026-07-04",
