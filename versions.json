@@ -1,323 +1,338 @@
 [
     {
-        "version":  "20260704-wishlist-card-link-v33",
-        "title":  "Wishlist card link v33",
+        "version":  "20260704-wishlist-dom-trust-v34",
+        "title":  "Wishlist DOM trust v34",
         "date":  "2026-07-04",
-        "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260704-wishlist-card-link-v33/20260704-wishlist-card-link-v33.zip",
-        "sha256":  "354885e1dea89e7a2a5e9a95aa3cb5e7766e643c37abf554675aa616a90ec90d",
-        "size":  141506514,
+        "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260704-wishlist-dom-trust-v34/20260704-wishlist-dom-trust-v34.zip",
+        "sha256":  "cef66ab1661c77cbb80479b0c28869e7b4ad1087aabee3c371c3ce91a2f5ae06",
+        "size":  141504932,
         "hasVersionManager":  true,
-        "notes":  "Wishlist DOM detection now treats visible ADD TO CART/BAG buttons inside product cards as availability, extracts the product link from a.fr-ec-product-tile, and never clicks the add-to-cart button."
+        "notes":  "Wishlist DOM hits now bypass the API alias filter, so visible ADD TO CART/BAG cards on the wishlist page are reported by product href even when the API variant key differs. Wishlist-only configs are forced to one worker."
     },
     {
         "value":  [
                       {
-                          "version":  "20260703-wishlist-stock-reload-v32",
-                          "title":  "Wishlist stock reload language v32",
-                          "date":  "2026-07-03",
-                          "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-stock-reload-v32/20260703-wishlist-stock-reload-v32.zip",
-                          "sha256":  "170f88c656c36744dff6fa3e35888a7bbad01e5670d8ab35a8e0db2051d27705",
-                          "size":  141503562,
+                          "version":  "20260704-wishlist-card-link-v33",
+                          "title":  "Wishlist card link v33",
+                          "date":  "2026-07-04",
+                          "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260704-wishlist-card-link-v33/20260704-wishlist-card-link-v33.zip",
+                          "sha256":  "354885e1dea89e7a2a5e9a95aa3cb5e7766e643c37abf554675aa616a90ec90d",
+                          "size":  141506514,
                           "hasVersionManager":  true,
-                          "notes":  "Wishlist reloads when UNIQLO shows Failed to get items, stock detection is stricter (ADD TO CART/BAG vs NOTIFY ME), and wishlist URLs are accepted only when the language segment is en."
+                          "notes":  "Wishlist DOM detection now treats visible ADD TO CART/BAG buttons inside product cards as availability, extracts the product link from a.fr-ec-product-tile, and never clicks the add-to-cart button."
                       },
                       {
                           "value":  [
                                         {
-                                            "version":  "20260703-wishlist-empty-recovery-v31",
-                                            "title":  "Wishlist empty recovery v31",
+                                            "version":  "20260703-wishlist-stock-reload-v32",
+                                            "title":  "Wishlist stock reload language v32",
                                             "date":  "2026-07-03",
-                                            "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-empty-recovery-v31/20260703-wishlist-empty-recovery-v31.zip",
-                                            "sha256":  "3bd87a61e5558fe2398dd83d872b167c3b0970dbfb2dad7e92dc9f205552c883",
-                                            "size":  141503078,
+                                            "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-stock-reload-v32/20260703-wishlist-stock-reload-v32.zip",
+                                            "sha256":  "170f88c656c36744dff6fa3e35888a7bbad01e5670d8ab35a8e0db2051d27705",
+                                            "size":  141503562,
                                             "hasVersionManager":  true,
-                                            "notes":  "Wishlist now detects an empty viewport after a network stall, stops treating empty scrollY movement as useful progress, and performs a deeper up-scroll recovery before continuing the fast scan."
+                                            "notes":  "Wishlist reloads when UNIQLO shows Failed to get items, stock detection is stricter (ADD TO CART/BAG vs NOTIFY ME), and wishlist URLs are accepted only when the language segment is en."
                                         },
                                         {
                                             "value":  [
                                                           {
-                                                              "version":  "20260703-wishlist-fast-scroll-v30",
-                                                              "title":  "Wishlist fast scroll v30",
+                                                              "version":  "20260703-wishlist-empty-recovery-v31",
+                                                              "title":  "Wishlist empty recovery v31",
                                                               "date":  "2026-07-03",
-                                                              "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-fast-scroll-v30/20260703-wishlist-fast-scroll-v30.zip",
-                                                              "sha256":  "0e9e1b3cf1837a36ce5246795b388a3ef381603c733653557685950ccabd4245",
-                                                              "size":  141500606,
+                                                              "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-empty-recovery-v31/20260703-wishlist-empty-recovery-v31.zip",
+                                                              "sha256":  "3bd87a61e5558fe2398dd83d872b167c3b0970dbfb2dad7e92dc9f205552c883",
+                                                              "size":  141503078,
                                                               "hasVersionManager":  true,
-                                                              "notes":  "Wishlist scrolling is much faster: default speed is raised to 2200 px/s, chunks are longer to reduce Python/JS overhead, and old configs are migrated. Up-scroll recovery still runs only after a real stall."
+                                                              "notes":  "Wishlist now detects an empty viewport after a network stall, stops treating empty scrollY movement as useful progress, and performs a deeper up-scroll recovery before continuing the fast scan."
                                                           },
                                                           {
-                                                              "versions":  [
-                                                                               {
-                                                                                   "version":  "20260703-whats-new-v29",
-                                                                                   "title":  "What\u0027s new v29",
-                                                                                   "date":  "2026-07-03",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-whats-new-v29/20260703-whats-new-v29.zip",
-                                                                                   "sha256":  "6d67a1fc81958e12aa5c222540f6d636627afed2c877ac6e911b81c84765cbec",
-                                                                                   "size":  141500235,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "The in-app What\u0027s New screen now describes the current wishlist lazy-load behavior: recovery scrolls up only after a real stall, while normal forward scrolling is treated as progress."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260703-wishlist-forward-progress-v28",
-                                                                                   "title":  "Wishlist forward progress v28",
-                                                                                   "date":  "2026-07-03",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-forward-progress-v28/20260703-wishlist-forward-progress-v28.zip",
-                                                                                   "sha256":  "8a8d2d8c9667755a140c3c90300f65bb65ed829925bf98f2821ba96226f82a88",
-                                                                                   "size":  141501285,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Wishlist up-scroll recovery now runs only when loading is truly stuck: no new cards/height and no forward scroll progress. Normal downward scrolling no longer triggers recovery just because visible card count is stable."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260703-wishlist-stuck-recovery-v27",
-                                                                                   "title":  "Wishlist stuck recovery v27",
-                                                                                   "date":  "2026-07-03",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-stuck-recovery-v27/20260703-wishlist-stuck-recovery-v27.zip",
-                                                                                   "sha256":  "2ed1dff0f1a63f1a6f0f791ad0765973f6554c417f59e08bf5a07588490ce546",
-                                                                                   "size":  141501559,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Wishlist scrolling no longer reloads at partial counts like 233/999. Up-scroll recovery now runs only after loading stalls, uses a stronger upward nudge, extends timeout for large wishlists, forces wishlist to one worker, and save-wishlist reports login state clearly."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260703-wishlist-progress-stable-v25",
-                                                                                   "title":  "Wishlist progress stable v25",
-                                                                                   "date":  "2026-07-03",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-progress-stable-v25/20260703-wishlist-progress-stable-v25.zip",
-                                                                                   "sha256":  "d85b57273f158e57ed969982fa44e2bff9e892177166deadd4febb30d02e24e4",
-                                                                                   "sizeBytes":  141498693,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Wishlist progress is now based on loaded cards versus the page total, worker rows update without flicker, short pause no longer resets progress, and 100% is shown only after the target count is reached."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260703-wishlist-live-card-count-v24",
-                                                                                   "title":  "Wishlist live card count v24",
-                                                                                   "date":  "2026-07-03",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-live-card-count-v24/20260703-wishlist-live-card-count-v24.zip",
-                                                                                   "sha256":  "24441a796e268b47d953f3cf382eb1b6f2fa673e2d06d3e2b0258097357d3731",
-                                                                                   "sizeBytes":  141495882,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Wishlist live-scroll now reports loaded DOM cards separately from API total, adds a per-worker scroll progress bar, and no longer shows a 999 wishlist target as already scanned before the page reaches the bottom."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260703-wishlist-live-scroll-v23",
-                                                                                   "title":  "Wishlist live scroll v23",
-                                                                                   "date":  "2026-07-03",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-live-scroll-v23/20260703-wishlist-live-scroll-v23.zip",
-                                                                                   "sha256":  "1394ba821e3a65cdd11bc63e883db4bee3822370f02c251f9bf23b3eb1b48b67",
-                                                                                   "sizeBytes":  141494292,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Wishlist now uses browser live-scroll by default instead of API-only waves. It reacts to in-stock wishlist cards as soon as they load during scrolling, keeps scrolling after a hit, and no longer emits API-only products as a batch at the end."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260702-wishlist-live-chunks-v22",
-                                                                                   "title":  "Wishlist live chunks v22",
-                                                                                   "date":  "2026-07-02",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-wishlist-live-chunks-v22/20260702-wishlist-live-chunks-v22.zip",
-                                                                                   "sha256":  "42593792e42aed3e3a944ff9f150f96ec45dcbb67afc118f12b5f5b3da6d8368",
-                                                                                   "sizeBytes":  141494340,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Fixes the real reason wishlist browser results were emitted in a batch at the bottom: the scroll JavaScript had a hidden 15-second minimum chunk. Browser scroll now yields back to Python in short live chunks, checks the first screen immediately, and keeps the strict product/color/size filtering from V21."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260702-wishlist-dom-strict-v21",
-                                                                                   "title":  "Wishlist DOM strict v21",
-                                                                                   "date":  "2026-07-02",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-wishlist-dom-strict-v21/20260702-wishlist-dom-strict-v21.zip",
-                                                                                   "sha256":  "a47c9d833feac39cbf0c2b0484c3197c083a6c169cbbe7418fad3c54c84ea573",
-                                                                                   "sizeBytes":  141493582,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Fixes wishlist browser-mode false positives: visible DOM Add to cart cards are now filtered by the exact wishlist product/color/size from the API, so a saved color no longer opens a neighboring /00 variant. Finds can be emitted during scrolling from the early API read instead of waiting for the bottom. Keeps the V20 version-manager fallback."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260702-version-manager-fallback-v20",
-                                                                                   "title":  "Version manager fallback v20",
-                                                                                   "date":  "2026-07-02",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-version-manager-fallback-v20/20260702-version-manager-fallback-v20.zip",
-                                                                                   "sha256":  "ac01280edebac759632a94d113d73af03b725c8f588e09c13acd8070ea995088",
-                                                                                   "sizeBytes":  141492637,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Fixes the version manager: old versions are visible again from the local FastWorkSingle runtime cache, GitHub API has raw-manifest fallback, and settings now show a useful load status instead of silently leaving only the current version."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260702-wishlist-live-url-v19",
-                                                                                   "title":  "Wishlist live URL v19",
-                                                                                   "date":  "2026-07-02",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-wishlist-live-url-v19/20260702-wishlist-live-url-v19.zip",
-                                                                                   "sha256":  "a15923762ed0e4603b38a9239ada1216153a5a56cdcd599d68aab668f32b9d19",
-                                                                                   "sizeBytes":  141486504,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Wishlist fix: exact saved product URL is preserved, so /01 links no longer turn into /00 variants. Browser wishlist scan now shows found items while scrolling instead of waiting for the very bottom. Added a first-launch update card with a short animated presentation and human-readable changes."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260701-wishlist-api-strict-v18",
-                                                                                   "title":  "Wishlist API strict v18",
-                                                                                   "date":  "2026-07-01",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260701-wishlist-api-strict-v18/20260701-wishlist-api-strict-v18.zip",
-                                                                                   "sha256":  "d12b63a2745bf0a4ab5a6b8cba1e4d64e1ad46d9f49752e9923c67a8abb9285a",
-                                                                                   "sizeBytes":  141474185,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Fixes wishlist API strict variant filtering so same-name different-price variants are not reported; API waves now continue past the first page when total is missing."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260701-test-v17",
-                                                                                   "title":  "Test v17",
-                                                                                   "date":  "2026-07-01",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260701-test-v17/20260701-test-v17.zip",
-                                                                                   "sha256":  "d2af3601387ff7342e72dabae353c385418d98e4c83030bcc53f54dbf4cda7ad",
-                                                                                   "sizeBytes":  141464268,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Test build: shows the program version under the tab menu."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260701-startup-update-check-v16",
-                                                                                   "title":  "Startup update check v16",
-                                                                                   "date":  "2026-07-01",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260701-startup-update-check-v16/20260701-startup-update-check-v16.zip",
-                                                                                   "sha256":  "4376af628231cdfcbb2cd57d11579e3d49bfe77d664e67ba93771774f3e0f368",
-                                                                                   "sizeBytes":  141464104,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Previous build with centered startup update dialog and one-click update download."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260629-versions-history-v15",
-                                                                                   "title":  "Versions history v15",
-                                                                                   "date":  "2026-06-29",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-versions-history-v15/20260629-versions-history-v15.zip",
-                                                                                   "sha256":  "d32e8e6bf9d8ce6cd3db5ef442279fe33e4449dfe4dff188a2ae4f1aa0f1b8b8",
-                                                                                   "sizeBytes":  141453245,
-                                                                                   "hasVersionManager":  true,
-                                                                                   "notes":  "Previous build with version history, private manifest token support, and one-way rollback protection."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260629-version-manager-v14",
-                                                                                   "title":  "Version manager v14",
-                                                                                   "date":  "2026-06-29",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-version-manager-v14/20260629-version-manager-v14.zip",
-                                                                                   "sha256":  "c1e97a9be405fa4719db37eaf411f8b73b4a39e96774eea6676778de64ac59a7",
-                                                                                   "sizeBytes":  141443995,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260629-wishlist-live-v13",
-                                                                                   "title":  "Wishlist live v13",
-                                                                                   "date":  "2026-06-29",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-wishlist-live-v13/20260629-wishlist-live-v13.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260628-url-round-robin-v11",
-                                                                                   "title":  "URL round-robin v11",
-                                                                                   "date":  "2026-06-28",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260628-url-round-robin-v11/20260628-url-round-robin-v11.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260628-open-links-v10",
-                                                                                   "title":  "Open links v10",
-                                                                                   "date":  "2026-06-28",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260628-open-links-v10/20260628-open-links-v10.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260627-wishlist-transfer-v9",
-                                                                                   "title":  "Wishlist transfer v9",
-                                                                                   "date":  "2026-06-27",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260627-wishlist-transfer-v9/20260627-wishlist-transfer-v9.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260626-sale-scoped-after-count-v8",
-                                                                                   "title":  "Sale scoped after count v8",
-                                                                                   "date":  "2026-06-26",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260626-sale-scoped-after-count-v8/20260626-sale-scoped-after-count-v8.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260626-sale-fullscan-v7",
-                                                                                   "title":  "Sale full scan v7",
-                                                                                   "date":  "2026-06-26",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260626-sale-fullscan-v7/20260626-sale-fullscan-v7.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260625-sale-variant-v6",
-                                                                                   "title":  "Sale variant v6",
-                                                                                   "date":  "2026-06-25",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260625-sale-variant-v6/20260625-sale-variant-v6.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260624-sale-grid-v5",
-                                                                                   "title":  "Sale grid v5",
-                                                                                   "date":  "2026-06-24",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260624-sale-grid-v5/20260624-sale-grid-v5.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260623-url-guard-v4",
-                                                                                   "title":  "URL guard v4",
-                                                                                   "date":  "2026-06-23",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-url-guard-v4/20260623-url-guard-v4.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260623-sale-capture-v3",
-                                                                                   "title":  "Sale capture v3",
-                                                                                   "date":  "2026-06-23",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-sale-capture-v3/20260623-sale-capture-v3.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260623-settings-draft-v2",
-                                                                                   "title":  "Settings draft v2",
-                                                                                   "date":  "2026-06-23",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-settings-draft-v2/20260623-settings-draft-v2.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               },
-                                                                               {
-                                                                                   "version":  "20260623-portable-v1",
-                                                                                   "title":  "Portable v1",
-                                                                                   "date":  "2026-06-23",
-                                                                                   "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-portable-v1/20260623-portable-v1.zip",
-                                                                                   "sha256":  "",
-                                                                                   "sizeBytes":  0,
-                                                                                   "hasVersionManager":  false,
-                                                                                   "notes":  "Old build. New manager remains open when this version is launched."
-                                                                               }
-                                                                           ]
+                                                              "value":  [
+                                                                            {
+                                                                                "version":  "20260703-wishlist-fast-scroll-v30",
+                                                                                "title":  "Wishlist fast scroll v30",
+                                                                                "date":  "2026-07-03",
+                                                                                "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-fast-scroll-v30/20260703-wishlist-fast-scroll-v30.zip",
+                                                                                "sha256":  "0e9e1b3cf1837a36ce5246795b388a3ef381603c733653557685950ccabd4245",
+                                                                                "size":  141500606,
+                                                                                "hasVersionManager":  true,
+                                                                                "notes":  "Wishlist scrolling is much faster: default speed is raised to 2200 px/s, chunks are longer to reduce Python/JS overhead, and old configs are migrated. Up-scroll recovery still runs only after a real stall."
+                                                                            },
+                                                                            {
+                                                                                "versions":  [
+                                                                                                 {
+                                                                                                     "version":  "20260703-whats-new-v29",
+                                                                                                     "title":  "What\u0027s new v29",
+                                                                                                     "date":  "2026-07-03",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-whats-new-v29/20260703-whats-new-v29.zip",
+                                                                                                     "sha256":  "6d67a1fc81958e12aa5c222540f6d636627afed2c877ac6e911b81c84765cbec",
+                                                                                                     "size":  141500235,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "The in-app What\u0027s New screen now describes the current wishlist lazy-load behavior: recovery scrolls up only after a real stall, while normal forward scrolling is treated as progress."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260703-wishlist-forward-progress-v28",
+                                                                                                     "title":  "Wishlist forward progress v28",
+                                                                                                     "date":  "2026-07-03",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-forward-progress-v28/20260703-wishlist-forward-progress-v28.zip",
+                                                                                                     "sha256":  "8a8d2d8c9667755a140c3c90300f65bb65ed829925bf98f2821ba96226f82a88",
+                                                                                                     "size":  141501285,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Wishlist up-scroll recovery now runs only when loading is truly stuck: no new cards/height and no forward scroll progress. Normal downward scrolling no longer triggers recovery just because visible card count is stable."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260703-wishlist-stuck-recovery-v27",
+                                                                                                     "title":  "Wishlist stuck recovery v27",
+                                                                                                     "date":  "2026-07-03",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-stuck-recovery-v27/20260703-wishlist-stuck-recovery-v27.zip",
+                                                                                                     "sha256":  "2ed1dff0f1a63f1a6f0f791ad0765973f6554c417f59e08bf5a07588490ce546",
+                                                                                                     "size":  141501559,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Wishlist scrolling no longer reloads at partial counts like 233/999. Up-scroll recovery now runs only after loading stalls, uses a stronger upward nudge, extends timeout for large wishlists, forces wishlist to one worker, and save-wishlist reports login state clearly."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260703-wishlist-progress-stable-v25",
+                                                                                                     "title":  "Wishlist progress stable v25",
+                                                                                                     "date":  "2026-07-03",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-progress-stable-v25/20260703-wishlist-progress-stable-v25.zip",
+                                                                                                     "sha256":  "d85b57273f158e57ed969982fa44e2bff9e892177166deadd4febb30d02e24e4",
+                                                                                                     "sizeBytes":  141498693,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Wishlist progress is now based on loaded cards versus the page total, worker rows update without flicker, short pause no longer resets progress, and 100% is shown only after the target count is reached."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260703-wishlist-live-card-count-v24",
+                                                                                                     "title":  "Wishlist live card count v24",
+                                                                                                     "date":  "2026-07-03",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-live-card-count-v24/20260703-wishlist-live-card-count-v24.zip",
+                                                                                                     "sha256":  "24441a796e268b47d953f3cf382eb1b6f2fa673e2d06d3e2b0258097357d3731",
+                                                                                                     "sizeBytes":  141495882,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Wishlist live-scroll now reports loaded DOM cards separately from API total, adds a per-worker scroll progress bar, and no longer shows a 999 wishlist target as already scanned before the page reaches the bottom."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260703-wishlist-live-scroll-v23",
+                                                                                                     "title":  "Wishlist live scroll v23",
+                                                                                                     "date":  "2026-07-03",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260703-wishlist-live-scroll-v23/20260703-wishlist-live-scroll-v23.zip",
+                                                                                                     "sha256":  "1394ba821e3a65cdd11bc63e883db4bee3822370f02c251f9bf23b3eb1b48b67",
+                                                                                                     "sizeBytes":  141494292,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Wishlist now uses browser live-scroll by default instead of API-only waves. It reacts to in-stock wishlist cards as soon as they load during scrolling, keeps scrolling after a hit, and no longer emits API-only products as a batch at the end."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260702-wishlist-live-chunks-v22",
+                                                                                                     "title":  "Wishlist live chunks v22",
+                                                                                                     "date":  "2026-07-02",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-wishlist-live-chunks-v22/20260702-wishlist-live-chunks-v22.zip",
+                                                                                                     "sha256":  "42593792e42aed3e3a944ff9f150f96ec45dcbb67afc118f12b5f5b3da6d8368",
+                                                                                                     "sizeBytes":  141494340,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Fixes the real reason wishlist browser results were emitted in a batch at the bottom: the scroll JavaScript had a hidden 15-second minimum chunk. Browser scroll now yields back to Python in short live chunks, checks the first screen immediately, and keeps the strict product/color/size filtering from V21."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260702-wishlist-dom-strict-v21",
+                                                                                                     "title":  "Wishlist DOM strict v21",
+                                                                                                     "date":  "2026-07-02",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-wishlist-dom-strict-v21/20260702-wishlist-dom-strict-v21.zip",
+                                                                                                     "sha256":  "a47c9d833feac39cbf0c2b0484c3197c083a6c169cbbe7418fad3c54c84ea573",
+                                                                                                     "sizeBytes":  141493582,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Fixes wishlist browser-mode false positives: visible DOM Add to cart cards are now filtered by the exact wishlist product/color/size from the API, so a saved color no longer opens a neighboring /00 variant. Finds can be emitted during scrolling from the early API read instead of waiting for the bottom. Keeps the V20 version-manager fallback."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260702-version-manager-fallback-v20",
+                                                                                                     "title":  "Version manager fallback v20",
+                                                                                                     "date":  "2026-07-02",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-version-manager-fallback-v20/20260702-version-manager-fallback-v20.zip",
+                                                                                                     "sha256":  "ac01280edebac759632a94d113d73af03b725c8f588e09c13acd8070ea995088",
+                                                                                                     "sizeBytes":  141492637,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Fixes the version manager: old versions are visible again from the local FastWorkSingle runtime cache, GitHub API has raw-manifest fallback, and settings now show a useful load status instead of silently leaving only the current version."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260702-wishlist-live-url-v19",
+                                                                                                     "title":  "Wishlist live URL v19",
+                                                                                                     "date":  "2026-07-02",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260702-wishlist-live-url-v19/20260702-wishlist-live-url-v19.zip",
+                                                                                                     "sha256":  "a15923762ed0e4603b38a9239ada1216153a5a56cdcd599d68aab668f32b9d19",
+                                                                                                     "sizeBytes":  141486504,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Wishlist fix: exact saved product URL is preserved, so /01 links no longer turn into /00 variants. Browser wishlist scan now shows found items while scrolling instead of waiting for the very bottom. Added a first-launch update card with a short animated presentation and human-readable changes."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260701-wishlist-api-strict-v18",
+                                                                                                     "title":  "Wishlist API strict v18",
+                                                                                                     "date":  "2026-07-01",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260701-wishlist-api-strict-v18/20260701-wishlist-api-strict-v18.zip",
+                                                                                                     "sha256":  "d12b63a2745bf0a4ab5a6b8cba1e4d64e1ad46d9f49752e9923c67a8abb9285a",
+                                                                                                     "sizeBytes":  141474185,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Fixes wishlist API strict variant filtering so same-name different-price variants are not reported; API waves now continue past the first page when total is missing."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260701-test-v17",
+                                                                                                     "title":  "Test v17",
+                                                                                                     "date":  "2026-07-01",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260701-test-v17/20260701-test-v17.zip",
+                                                                                                     "sha256":  "d2af3601387ff7342e72dabae353c385418d98e4c83030bcc53f54dbf4cda7ad",
+                                                                                                     "sizeBytes":  141464268,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Test build: shows the program version under the tab menu."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260701-startup-update-check-v16",
+                                                                                                     "title":  "Startup update check v16",
+                                                                                                     "date":  "2026-07-01",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260701-startup-update-check-v16/20260701-startup-update-check-v16.zip",
+                                                                                                     "sha256":  "4376af628231cdfcbb2cd57d11579e3d49bfe77d664e67ba93771774f3e0f368",
+                                                                                                     "sizeBytes":  141464104,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Previous build with centered startup update dialog and one-click update download."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260629-versions-history-v15",
+                                                                                                     "title":  "Versions history v15",
+                                                                                                     "date":  "2026-06-29",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-versions-history-v15/20260629-versions-history-v15.zip",
+                                                                                                     "sha256":  "d32e8e6bf9d8ce6cd3db5ef442279fe33e4449dfe4dff188a2ae4f1aa0f1b8b8",
+                                                                                                     "sizeBytes":  141453245,
+                                                                                                     "hasVersionManager":  true,
+                                                                                                     "notes":  "Previous build with version history, private manifest token support, and one-way rollback protection."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260629-version-manager-v14",
+                                                                                                     "title":  "Version manager v14",
+                                                                                                     "date":  "2026-06-29",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-version-manager-v14/20260629-version-manager-v14.zip",
+                                                                                                     "sha256":  "c1e97a9be405fa4719db37eaf411f8b73b4a39e96774eea6676778de64ac59a7",
+                                                                                                     "sizeBytes":  141443995,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260629-wishlist-live-v13",
+                                                                                                     "title":  "Wishlist live v13",
+                                                                                                     "date":  "2026-06-29",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260629-wishlist-live-v13/20260629-wishlist-live-v13.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260628-url-round-robin-v11",
+                                                                                                     "title":  "URL round-robin v11",
+                                                                                                     "date":  "2026-06-28",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260628-url-round-robin-v11/20260628-url-round-robin-v11.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260628-open-links-v10",
+                                                                                                     "title":  "Open links v10",
+                                                                                                     "date":  "2026-06-28",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260628-open-links-v10/20260628-open-links-v10.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260627-wishlist-transfer-v9",
+                                                                                                     "title":  "Wishlist transfer v9",
+                                                                                                     "date":  "2026-06-27",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260627-wishlist-transfer-v9/20260627-wishlist-transfer-v9.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260626-sale-scoped-after-count-v8",
+                                                                                                     "title":  "Sale scoped after count v8",
+                                                                                                     "date":  "2026-06-26",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260626-sale-scoped-after-count-v8/20260626-sale-scoped-after-count-v8.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260626-sale-fullscan-v7",
+                                                                                                     "title":  "Sale full scan v7",
+                                                                                                     "date":  "2026-06-26",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260626-sale-fullscan-v7/20260626-sale-fullscan-v7.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260625-sale-variant-v6",
+                                                                                                     "title":  "Sale variant v6",
+                                                                                                     "date":  "2026-06-25",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260625-sale-variant-v6/20260625-sale-variant-v6.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260624-sale-grid-v5",
+                                                                                                     "title":  "Sale grid v5",
+                                                                                                     "date":  "2026-06-24",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260624-sale-grid-v5/20260624-sale-grid-v5.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260623-url-guard-v4",
+                                                                                                     "title":  "URL guard v4",
+                                                                                                     "date":  "2026-06-23",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-url-guard-v4/20260623-url-guard-v4.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260623-sale-capture-v3",
+                                                                                                     "title":  "Sale capture v3",
+                                                                                                     "date":  "2026-06-23",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-sale-capture-v3/20260623-sale-capture-v3.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260623-settings-draft-v2",
+                                                                                                     "title":  "Settings draft v2",
+                                                                                                     "date":  "2026-06-23",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-settings-draft-v2/20260623-settings-draft-v2.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "version":  "20260623-portable-v1",
+                                                                                                     "title":  "Portable v1",
+                                                                                                     "date":  "2026-06-23",
+                                                                                                     "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260623-portable-v1/20260623-portable-v1.zip",
+                                                                                                     "sha256":  "",
+                                                                                                     "sizeBytes":  0,
+                                                                                                     "hasVersionManager":  false,
+                                                                                                     "notes":  "Old build. New manager remains open when this version is launched."
+                                                                                                 }
+                                                                                             ]
+                                                                            }
+                                                                        ],
+                                                              "Count":  2
                                                           }
                                                       ],
                                             "Count":  2
