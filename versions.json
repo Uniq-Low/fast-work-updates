@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260710-zara-wishlist-v38",
+    "title": "Zara wishlist v38",
+    "date": "2026-07-10",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260710-zara-wishlist-v38/20260710-zara-wishlist-v38.zip",
+    "sha256": "da26fa23c4b62bae080934847c46049c7d740eb26e04d9985fe46964884ed048",
+    "sizeBytes": 141522858,
+    "hasVersionManager": true,
+    "notes": "Adds Zara wishlist monitoring with one visible worker, a 10-second global reload guard, Polish stock-button detection, full-page bottom verification, and login/anti-bot cooldowns."
+  },
+  {
     "version": "20260704-api-mode-toggle-v37",
     "title": "API mode toggle v37",
     "date": "2026-07-04",
