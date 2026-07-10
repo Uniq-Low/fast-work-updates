@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260710-zara-card-discovery-v39",
+    "title": "Zara card discovery v39",
+    "date": "2026-07-10",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260710-zara-card-discovery-v39/20260710-zara-card-discovery-v39.zip",
+    "sha256": "a58ab50283dae56cd6a96397413b901764df1326570f13fab2ec95e59896c197",
+    "sizeBytes": 182968755,
+    "hasVersionManager": true,
+    "notes": "Fixes Zara card discovery: the scan now recognizes current card markup through product links and add actions, waits longer for the page, and ignores temporary zero-size button geometry."
+  },
+  {
     "version": "20260710-zara-wishlist-v38",
     "title": "Zara wishlist v38",
     "date": "2026-07-10",
