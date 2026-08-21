@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260821-api-client-sync-v40",
+    "title": "API client sync v40",
+    "date": "2026-08-21",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260821-api-client-sync-v40/20260821-api-client-sync-v40.zip",
+    "sha256": "e56f5aa0aa38815c0af36e2bba2ae23a38f701dc7734724a935cc5cc32874b47",
+    "sizeBytes": 144185773,
+    "hasVersionManager": true,
+    "notes": "Fixes API mode by discovering and caching the current UNIQLO storefront build version instead of sending an outdated hard-coded client version. Both direct HTTP and browser API scans now stay synchronized with the official site."
+  },
+  {
     "version": "20260710-zara-card-discovery-v39",
     "title": "Zara card discovery v39",
     "date": "2026-07-10",
