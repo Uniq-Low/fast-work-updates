@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260822-multi-account-api-20s-v42",
+    "title": "Multi-account API safety v42",
+    "date": "2026-08-22",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260822-multi-account-api-20s-v42/20260822-multi-account-api-20s-v42.zip",
+    "sha256": "34d2e401317b06911c7a28f40059faa2d6f273fbff08be04ccbcb4b59bcf8197",
+    "sizeBytes": 144207994,
+    "hasVersionManager": true,
+    "notes": "Adds isolated UNIQLO account profiles with automatic legacy migration, account-by-account round-robin wishlist scanning using the configured pause, independent stock history, and a hard global favorites API limit of one request per 20 seconds. Includes a dedicated What's New tab."
+  },
+  {
     "version": "20260822-api-client-id-v41",
     "title": "Regional API client ID v41",
     "date": "2026-08-22",
