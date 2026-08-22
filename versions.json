@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260822-api-full-scan-pause-v43",
+    "title": "API full-scan pause v43",
+    "date": "2026-08-22",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260822-api-full-scan-pause-v43/20260822-api-full-scan-pause-v43.zip",
+    "sha256": "0b1360add2e3ab645467ae0e62b7deb079c2c4f08f084ceb41288de8dc2708a7",
+    "sizeBytes": 144209577,
+    "hasVersionManager": true,
+    "notes": "Corrects v42 API pacing: all pages of a complete wishlist are collected immediately with up to five concurrent pagination requests, then the monitor waits max(configured account pause, 20 seconds) before the next account or repeat. Verified twice against an authenticated 999-item wishlist: 11.74s and 7.94s collections with exactly 20.0s between completed passes."
+  },
+  {
     "version": "20260822-multi-account-api-20s-v42",
     "title": "Multi-account API safety v42",
     "date": "2026-08-22",
@@ -7,7 +17,7 @@
     "sha256": "34d2e401317b06911c7a28f40059faa2d6f273fbff08be04ccbcb4b59bcf8197",
     "sizeBytes": 144207994,
     "hasVersionManager": true,
-    "notes": "Adds isolated UNIQLO account profiles with automatic legacy migration, account-by-account round-robin wishlist scanning using the configured pause, independent stock history, and a hard global favorites API limit of one request per 20 seconds. Includes a dedicated What's New tab."
+    "notes": "Superseded by v43 because this version pauses between pagination requests. Use v43, which applies the 20-second minimum only after a complete wishlist has been collected."
   },
   {
     "version": "20260822-api-client-id-v41",
