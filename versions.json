@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260825-variant-lan-routing-v44",
+    "title": "Exact variant and LAN routing v44",
+    "date": "2026-08-25",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260825-variant-lan-routing-v44/20260825-variant-lan-routing-v44.zip",
+    "sha256": "57683c6176986a07a2db86143daa1c09d83f64b3aef34f32db432aaaa52392ed",
+    "sizeBytes": 150300526,
+    "hasVersionManager": true,
+    "notes": "Preserves the exact UNIQLO API variant URL through result storage and opening, including colorDisplayCode and sizeDisplayCode, so a discounted Red variant cannot fall back to the default Blue product. Adds signed same-LAN discovery and link routing: each FastWork computer can open locally and select any discovered peers as additional recipients. Also fixes concurrent first-run extraction with a per-version lock and unique staging folders."
+  },
+  {
     "version": "20260822-api-full-scan-pause-v43",
     "title": "API full-scan pause v43",
     "date": "2026-08-22",
