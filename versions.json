@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260826-wishlist-url-priority-v45",
+    "title": "Wishlist URL priority v45",
+    "date": "2026-08-26",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260826-wishlist-url-priority-v45/20260826-wishlist-url-priority-v45.zip",
+    "sha256": "fddc93fc35b133068b36394b32bcc0d3704750a38216bca20e90ab4e9daa2e8c",
+    "sizeBytes": 150303308,
+    "hasVersionManager": true,
+    "notes": "Fixes conflicting UNIQLO variant metadata in API mode. The exact saved wishlist URL is now authoritative: /01?colorDisplayCode=69&sizeDisplayCode=006 remains /01/69/006 even when sibling API fields describe the default /00 colour 08 product. Ranked URL selection prefers explicit colour/size links, preserves the original path, and rejects the neighbouring expensive variant. Keeps v44 signed LAN routing and concurrent-launch extraction fixes."
+  },
+  {
     "version": "20260825-variant-lan-routing-v44",
     "title": "Exact variant and LAN routing v44",
     "date": "2026-08-25",
