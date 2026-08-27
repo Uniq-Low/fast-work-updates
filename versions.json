@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260827-account-delete-v46",
+    "title": "Account deletion v46",
+    "date": "2026-08-27",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260827-account-delete-v46/20260827-account-delete-v46.zip",
+    "sha256": "0bf274e10906e821c70b0eeed90e61049a9a94df13d911039a15597014d83298",
+    "sizeBytes": 152387709,
+    "hasVersionManager": true,
+    "notes": "Adds a confirmed Delete button next to the UNIQLO account selector. Removing a profile deletes its saved cookies and isolated Chrome login data, while the last remaining account is protected from deletion. Keeps v45 exact wishlist variant matching and v44 signed LAN routing. Verified with 21 tests in three full runs, three LAN self-tests, and a clean WinUI Release build."
+  },
+  {
     "version": "20260826-wishlist-url-priority-v45",
     "title": "Wishlist URL priority v45",
     "date": "2026-08-26",
