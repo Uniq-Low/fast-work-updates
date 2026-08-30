@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260830-price-group-path-v47",
+    "title": "Price group path v47",
+    "date": "2026-08-30",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260830-price-group-path-v47/20260830-price-group-path-v47.zip",
+    "sha256": "0dfbe498067439d8bbf89a7fbc77160af5f177d169175a1a94ed8c6c3c69837a",
+    "sizeBytes": 152392645,
+    "hasVersionManager": true,
+    "notes": "Fixes UNIQLO API links whose colour, size and price were correct but whose PDP path still belonged to a different price group. FastWork now reads priceGroup and rewrites /00, /01 or /02 accordingly. E479755 RED 17 size 005 at GBP 9.90 now opens /02 instead of the expensive /00 colour 09 page. Keeps v46 account deletion, v45 exact wishlist URLs and v44 signed LAN routing. Verified with 22 tests in three full runs, three live official-page checks, three LAN self-tests and a clean WinUI Release build."
+  },
+  {
     "version": "20260827-account-delete-v46",
     "title": "Account deletion v46",
     "date": "2026-08-27",
