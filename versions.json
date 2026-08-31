@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260831-junction-temp-fix-v48",
+    "title": "Relocated AppData launcher fix v48",
+    "date": "2026-08-31",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260831-junction-temp-fix-v48/20260831-junction-temp-fix-v48.zip",
+    "sha256": "89ec2444ae862681d7f9711c728e7c03a235c5e95e3ea229b07873a5dd5a3887",
+    "sizeBytes": 152392288,
+    "hasVersionManager": true,
+    "notes": "Fixes Errno 17 / WinError 183 during first-run extraction when FastWorkSingle or AppData is relocated to another drive through a Windows junction. The launcher now resolves the physical directory before creating its unique staging folder. Keeps the v47 priceGroup URL correction and all multi-account/LAN features. Verified with 23 tests in three full runs, a real junction extraction probe on the affected machine, three LAN self-tests and a clean WinUI Release build."
+  },
+  {
     "version": "20260830-price-group-path-v47",
     "title": "Price group path v47",
     "date": "2026-08-30",
