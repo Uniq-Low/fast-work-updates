@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260831-interface-control-v49",
+    "title": "Interface and shared device control v49",
+    "date": "2026-08-31",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260831-interface-control-v49/20260831-interface-control-v49.zip",
+    "sha256": "67c76f790e295de32609f7c5a36c6da856c7f4923d29f5956e16ebfdeaa372a3",
+    "sizeBytes": 152462971,
+    "hasVersionManager": true,
+    "notes": "Redesigned Windows 10/11 interface with a clean dashboard and separate Accounts, Modes and workers, LAN, Versions and Personalization pages. Adds account rename and managed Chromium opening with saved cookies; stable one-second charts with a fixed 90-second window and 60-second smoothing; synchronized per-device sound and product-opening policies across the private LAN; automatic private-firewall repair and Start menu shortcut; adjustable opacity, window size, navigation headings/order and ten accent colours; direct 120-4200 px/s Chrome scrolling without the former 1800 px/s floor. Keeps exact priceGroup URLs, multi-account API rotation and the relocated AppData launcher fix. Verified with 24 tests in three full runs, three signed LAN policy-sync tests, backend utility smoke, real junction extraction, UI process smoke and clean WinUI builds with zero warnings/errors."
+  },
+  {
     "version": "20260831-junction-temp-fix-v48",
     "title": "Relocated AppData launcher fix v48",
     "date": "2026-08-31",
