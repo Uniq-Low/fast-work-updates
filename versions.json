@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260831-personalization-guide-v50",
+    "title": "Personalization fix and complete guide v50",
+    "date": "2026-09-01",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260831-personalization-guide-v50/20260831-personalization-guide-v50.zip",
+    "sha256": "75522f5cdd55d85137ae27b4f0a9036b57271d442458d493f7b88971c23f556a",
+    "sizeBytes": 145382281,
+    "hasVersionManager": true,
+    "notes": "Fixes the confirmed WinUI crash when opening Personalization: the opacity slider minimum is now assigned only after its maximum is initialized, and dynamic sidebar rebuilding is guarded against re-entrant navigation. Replaces the small About page with a 13-section Russian guide covering quick start, accounts and cookies, normal/API/Sale/Amazon/Zara modes, workers and full-scan pauses, exact variant URLs, private-LAN device policies, market prices, versions, personalization, security and extensive troubleshooting. Keeps all v49 interface, chart, account, LAN, launcher and scrolling improvements. Verified with 24 backend/API/account tests in three full runs, three signed LAN policy-sync tests, five complete page-navigation runs, five published-runtime personalization/About runs, three isolated first-launch extraction runs, and a clean WinUI Release build with zero warnings/errors."
+  },
+  {
     "version": "20260831-interface-control-v49",
     "title": "Interface and shared device control v49",
     "date": "2026-08-31",
