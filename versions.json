@@ -1,5 +1,15 @@
 [
   {
+    "version": "20260902-live-account-acrylic-v51",
+    "title": "Live account status and Acrylic v51",
+    "date": "2026-09-02",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260902-live-account-acrylic-v51/20260902-live-account-acrylic-v51.zip",
+    "sha256": "c26072d6e65b04b52faff5bb167a059075b40272e7347666b2cd0304fc7adcc0",
+    "sizeBytes": 145395665,
+    "hasVersionManager": true,
+    "notes": "Fixes the multi-account card metric so it reports the current pass and can decrease after switching from a large wishlist to a smaller one. Adds the current account and translated action under Monitor plus a bounded live journal at the bottom of Home. Replaces whole-interface fading with real Desktop Acrylic transparency on Windows 10 and 11, keeping text and controls fully opaque, and applies the selected accent colour to primary buttons, toggles, sliders, progress, navigation selection, charts and text selection. Includes the complete v50 guide and all account, exact-variant URL, LAN and launcher fixes. Verified with 26 backend/API/account tests in three full runs, three signed LAN policy-sync tests, five published-runtime navigation runs, three isolated launcher runs and a clean WinUI Release build with zero warnings/errors. The local saved UNIQLO session on the build PC returned HTTP 401 No access token and was not modified; users with that status must reopen the account and save fresh cookies."
+  },
+  {
     "version": "20260831-personalization-guide-v50",
     "title": "Personalization fix and complete guide v50",
     "date": "2026-09-01",
