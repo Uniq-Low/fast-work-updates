@@ -1,5 +1,16 @@
 [
   {
+    "version": "20260902-activity-profile-v52",
+    "title": "Activity profile v52",
+    "date": "2026-09-02",
+    "downloadUrl": "https://github.com/Uniq-Low/fast-work-updates/releases/download/20260902-activity-profile-v52/20260902-activity-profile-v52.zip",
+    "sha256": "5447f0f203947990258050b8d606c39b812f954f7e2f0f886b66dc984143535a",
+    "sizeBytes": 145417264,
+    "hasVersionManager": true,
+    "notes": "Adds a persistent Profile footer page with a 365-day activity calendar, daily scan/find totals, yearly totals and daily records. Activity shades follow the selected accent and support light/dark themes. History is stored locally, counts backend resets correctly and flushes synchronously during shutdown. Keeps all v51 per-account card, live status/journal, Acrylic, account, exact-variant URL, LAN and launcher improvements. Verified with 26 backend/API/account tests in three full runs, three signed LAN tests, a dedicated persistence/reset/flush test, five footer-navigation runs, five published-runtime runs, three isolated launcher runs and clean WinUI Release builds with zero warnings/errors."
+  },
+
+  {
     "version": "20260902-live-account-acrylic-v51",
     "title": "Live account status and Acrylic v51",
     "date": "2026-09-02",
