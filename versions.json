@@ -1,5 +1,16 @@
 [
   {
+      "version":  "20261113-jp-account-links-v53",
+      "title":  "Japan store and account links v53",
+      "date":  "2026-11-13",
+      "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20261113-jp-account-links-v53/20261113-jp-account-links-v53.zip",
+      "sha256":  "71f8db9030ed40405e2f1c7dc902dd4ed20d776253670fea0061eec4b872cc30",
+      "sizeBytes":  123803791,
+      "hasVersionManager":  true,
+      "notes":  "Adds Japanese store support: /jp/ja/wishlist links are accepted and the Japanese add-to-cart and out-of-stock buttons plus the IN_STOCK/STOCK_OUT API statuses are recognised, so in-stock Japanese wishlist items are detected. Adds per-link account binding: write \u0027link @ Account 1, Account 2\u0027 (account name, id or number) in the links box and only those accounts scan that link; links without \u0027@\u0027 are still scanned by all accounts, and a link bound to an unknown account is reported in the journal instead of being silently skipped. Keeps all v52 activity profile, per-account card, live status/journal, Acrylic, account, exact-variant URL, LAN and launcher improvements. Verified with 45 backend/API/account tests, an embedded JavaScript syntax check, a clean WinUI Release build with zero warnings/errors and a published single-exe launcher smoke test (runtime and backend extracted, application stayed running)."
+  },
+
+  {
     "version": "20260902-activity-profile-v52",
     "title": "Activity profile v52",
     "date": "2026-09-02",
