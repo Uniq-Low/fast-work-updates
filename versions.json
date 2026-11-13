@@ -1,5 +1,16 @@
 [
   {
+      "version":  "20261113-account-cells-v55",
+      "title":  "Account cells v55",
+      "date":  "2026-11-13",
+      "downloadUrl":  "https://github.com/Uniq-Low/fast-work-updates/releases/download/20261113-account-cells-v55/20261113-account-cells-v55.zip",
+      "sha256":  "8b117c6c07247c91b91fa97e09433f6732f50b8531ec16e815d3bd7e2d9fd386",
+      "sizeBytes":  123829803,
+      "hasVersionManager":  true,
+      "notes":  "Replaces the links text box with a list of link rows: a large Add link button, and per-link account cells (All accounts by default; choosing an account adds one more optional cell for the next account). Pasting several links splits them into separate rows, a Sale price field appears only in Sale mode and a link can be deleted with its X button. Also includes the Japanese store support (/jp/ja/wishlist) and per-link account scanning from v53, and a What\u0027s new window that is shown once per version and describes only the current version. Keeps all v52 activity profile, per-account card, live status/journal, Acrylic, account, exact-variant URL, LAN and launcher improvements. Verified with 45 backend/API/account tests, a clean WinUI Release build with zero warnings/errors and a published single-exe launcher run (runtime and backend extracted, application stayed running)."
+  },
+
+  {
       "version":  "20261113-jp-account-links-v53",
       "title":  "Japan store and account links v53",
       "date":  "2026-11-13",
